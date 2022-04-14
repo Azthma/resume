@@ -1,0 +1,59 @@
+.head {
+    /* background-color: #495057; */
+    background-color: black;
+    height: 600px;
+    background-image: url('./assets/bg.jpg');
+}
+.head-color {
+    color: white;
+}
+.name {
+    font-size: 60px;
+}
+.profession {
+    font-size: 24px;
+}
+.profile-image {
+    width: auto;
+    height: 300px;
+}
+@media only screen and (max-width : 1024px) {
+    .name {
+        font-size: 55px;
+    }
+    .profession {
+        font-size: 22px;
+    }
+    .profile-image {
+        width: auto;
+        height: 250px;
+    }
+}
+@media only screen and (max-width : 769px) { 
+    .name {
+        font-size: 50px;
+    }
+    .profession {
+        font-size: 20px;
+    }
+    .profile-image {
+        width: auto;
+        height: 200px;
+    }
+}
+@media only screen and (max-width : 481px) { 
+    .name {
+        font-size: 35px;
+    }
+    .profession {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width : 320px) { 
+    .name {
+        font-size: 32px;
+    }
+    .profession {
+        font-size: 16px;
+    }
+}
