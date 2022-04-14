@@ -17,6 +17,47 @@
     width: auto;
     height: 300px;
 }
+.social-icon {
+    font-size: 36px;
+}
+.about {
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid lightgray;
+}
+.about-basic-text {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.sub-title-icon {
+    font-size: 46px;
+    margin-right: 16px;
+}
+.education {
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid lightgray;
+}
+.education-experience {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.school-info {
+    padding-left: 60px;
+}
+.programming {
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+}
+.language {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 10px;
+}
 @media only screen and (max-width : 1024px) {
     .name {
         font-size: 55px;
@@ -39,6 +80,32 @@
     .profile-image {
         width: auto;
         height: 200px;
+    }
+    .head {
+        height: 450px;
+    }
+    .social-icon {
+        font-size: 30px;
+    }
+    .about-basic-text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .education {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .education-experience {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .programming {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .language {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 @media only screen and (max-width : 481px) { 
